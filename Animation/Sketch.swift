@@ -28,6 +28,17 @@ class Sketch : NSObject {
         
         // Draw an ellipse in the middle of the canvas
         canvas.drawEllipse(centreX: x, centreY: 250, width: 50, height: 50)
+        //draw an ellipse in on the first row
+        canvas.drawEllipse(centreX: x, centreY: 350, width: 50, height: 50)
+        
+        //draw an ellipse in on the second row
+        canvas.drawEllipse(centreX: x, centreY: 450, width: 50, height: 50)
+        
+        //draw an ellipse in on the fourth row
+        canvas.drawEllipse(centreX: x, centreY: 150, width: 50, height: 50)
+        
+        //draw an ellipse in on the fifth row
+        canvas.drawEllipse(centreX: x, centreY: 50, width: 50, height: 50)
         
     }
     
