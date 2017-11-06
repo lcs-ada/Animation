@@ -29,9 +29,6 @@ let canvas = Canvas(width: 800, height: 600)
 //no borders
 canvas.drawShapesWithBorders = false
 
-//move axis
-canvas.translate(byX: 400, byY: 300)
-
 //colour
 canvas.fillColor = Color.orange
 //draw two sides of the candy
@@ -63,9 +60,9 @@ canvas.rotate(by: 0)
 canvas.fillColor = Color.purple
 //ellipse
 canvas.drawEllipse(centreX: 0, centreY: 20, width: 8, height: 8)
-canvas.drawEllipse(centreX: -10, centreY: -10, width: 8, height: 8)
-canvas.drawEllipse(centreX: 0, centreY: -5, width: 8, height: 8)
-canvas.drawEllipse(centreX: 10, centreY: 0, width: 8, height: 8)
+canvas.drawEllipse(centreX: -20, centreY: -5, width: 8, height: 8)
+canvas.drawEllipse(centreX: 0, centreY: -20, width: 8, height: 8)
+canvas.drawEllipse(centreX: 20, centreY: 0, width: 8, height: 8)
 
 
 //tilted white rectangles
@@ -75,7 +72,6 @@ canvas.fillColor = Color.white
 //rectangles
 canvas.drawRectangle(centreX: 3, centreY: 85, width: 60, height: 50)
 canvas.drawRectangle(centreX: -3, centreY: -85, width: 60, height: 50)
-
 
 
 /*:
